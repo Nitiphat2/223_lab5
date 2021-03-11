@@ -17,15 +17,15 @@ int main()
             switch(x)
                 {
                     case 0 : s1 = s1+((int)a[i] - 48); break;
-                    case 1 : s1 = s1+((int)a[i] - 48) * base*base; break;
-                    case 2 : s1 = s1+((int)a[i] - 48) * base*base*base; break;
-                    case 3 : s1 = s1+((int)a[i] - 48) * base*base*base*base; break;
-                    case 4 : s1 = s1+((int)a[i] - 48) * base*base*base*base*base; break;
-                    case 5 : s1 = s1+((int)a[i] - 48) * base*base*base*base*base*base; break;
-                    case 6 : s1 = s1+((int)a[i] - 48) * base*base*base*base*base*base*base; break;
-                    case 7 : s1 = s1+((int)a[i] - 48) * base*base*base*base*base*base*base*base; break;
-                    case 8 : s1 = s1+((int)a[i] - 48) * base*base*base*base*base*base*base*base*base; break;
-                    case 9 : s1 = s1+((int)a[i] - 48) * base*base*base*base*base*base*base*base*base*base; break;
+                    case 1 : s1 = s1+((int)a[i] - 48) * base; break;
+                    case 2 : s1 = s1+((int)a[i] - 48) * base*base; break;
+                    case 3 : s1 = s1+((int)a[i] - 48) * base*base*base; break;
+                    case 4 : s1 = s1+((int)a[i] - 48) * base*base*base*base; break;
+                    case 5 : s1 = s1+((int)a[i] - 48) * base*base*base*base*base; break;
+                    case 6 : s1 = s1+((int)a[i] - 48) * base*base*base*base*base*base; break;
+                    case 7 : s1 = s1+((int)a[i] - 48) * base*base*base*base*base*base*base; break;
+                    case 8 : s1 = s1+((int)a[i] - 48) * base*base*base*base*base*base*base*base; break;
+                    case 9 : s1 = s1+((int)a[i] - 48) * base*base*base*base*base*base*base*base*base; break;
                 }
         }
         b1=strlen(b);
@@ -35,15 +35,15 @@ int main()
             switch(x)
                 {
                     case 0 : s2 = s2+((int)b[i] - 48); break;
-                    case 1 : s2 = s2+((int)b[i] - 48) * base*base; break;
-                    case 2 : s2 = s2+((int)b[i] - 48) * base*base*base; break;
-                    case 3 : s2 = s2+((int)b[i] - 48) * base*base*base*base; break;
-                    case 4 : s2 = s2+((int)b[i] - 48) * base*base*base*base*base; break;
-                    case 5 : s2 = s2+((int)b[i] - 48) * base*base*base*base*base*base; break;
-                    case 6 : s2 = s2+((int)b[i] - 48) * base*base*base*base*base*base*base; break;
-                    case 7 : s2 = s2+((int)b[i] - 48) * base*base*base*base*base*base*base*base; break;
-                    case 8 : s2 = s2+((int)b[i] - 48) * base*base*base*base*base*base*base*base*base; break;
-                    case 9 : s2 = s2+((int)b[i] - 48) * base*base*base*base*base*base*base*base*base*base; break;
+                    case 1 : s2 = s2+((int)b[i] - 48) * base; break;
+                    case 2 : s2 = s2+((int)b[i] - 48) * base*base; break;
+                    case 3 : s2 = s2+((int)b[i] - 48) * base*base*base; break;
+                    case 4 : s2 = s2+((int)b[i] - 48) * base*base*base*base; break;
+                    case 5 : s2 = s2+((int)b[i] - 48) * base*base*base*base*base; break;
+                    case 6 : s2 = s2+((int)b[i] - 48) * base*base*base*base*base*base; break;
+                    case 7 : s2 = s2+((int)b[i] - 48) * base*base*base*base*base*base*base; break;
+                    case 8 : s2 = s2+((int)b[i] - 48) * base*base*base*base*base*base*base*base; break;
+                    case 9 : s2 = s2+((int)b[i] - 48) * base*base*base*base*base*base*base*base*base; break;
                 }
         }
         c1=strlen(c);
@@ -53,15 +53,15 @@ int main()
             switch(x)
                 {
                     case 0 : s3 = s3+((int)c[i] - 48); break;
-                    case 1 : s3 = s3+((int)c[i] - 48) * base*base; break;
-                    case 2 : s3 = s3+((int)c[i] - 48) * base*base*base; break;
-                    case 3 : s3 = s3+((int)c[i] - 48) * base*base*base*base; break;
-                    case 4 : s3 = s3+((int)c[i] - 48) * base*base*base*base*base; break;
-                    case 5 : s3 = s3+((int)c[i] - 48) * base*base*base*base*base*base; break;
-                    case 6 : s3 = s3+((int)c[i] - 48) * base*base*base*base*base*base*base; break;
-                    case 7 : s3 = s3+((int)c[i] - 48) * base*base*base*base*base*base*base*base; break;
-                    case 8 : s3 = s3+((int)c[i] - 48) * base*base*base*base*base*base*base*base*base; break;
-                    case 9 : s3 = s3+((int)c[i] - 48) * base*base*base*base*base*base*base*base*base*base; break;
+                    case 1 : s3 = s3+((int)c[i] - 48) * base; break;
+                    case 2 : s3 = s3+((int)c[i] - 48) * base*base; break;
+                    case 3 : s3 = s3+((int)c[i] - 48) * base*base*base; break;
+                    case 4 : s3 = s3+((int)c[i] - 48) * base*base*base*base; break;
+                    case 5 : s3 = s3+((int)c[i] - 48) * base*base*base*base*base; break;
+                    case 6 : s3 = s3+((int)c[i] - 48) * base*base*base*base*base*base; break;
+                    case 7 : s3 = s3+((int)c[i] - 48) * base*base*base*base*base*base*base; break;
+                    case 8 : s3 = s3+((int)c[i] - 48) * base*base*base*base*base*base*base*base; break;
+                    case 9 : s3 = s3+((int)c[i] - 48) * base*base*base*base*base*base*base*base*base; break;
                 }
         }
         if(s1+s2==s3)
