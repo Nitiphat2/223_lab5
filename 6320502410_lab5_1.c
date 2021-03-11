@@ -29,7 +29,6 @@ int main()
         else
         {
             j=strlen(num);
-            printf("%d\n",j);
             for(l=0;l<j;l++)
             {
                 switch(x)
@@ -49,4 +48,6 @@ int main()
             a++;
         }
     }
+    printf("%d",f[0]);
+    return 0;
 }
