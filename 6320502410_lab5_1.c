@@ -6,6 +6,10 @@ int main()
     scanf("%d",&n);
     char num[n];
     int f[n];
+    for(i=0;i<n;i++)
+    {
+        f[i]=0;
+    }
     for(i=0; i<n; i++)
     {
         f[a]=0;
