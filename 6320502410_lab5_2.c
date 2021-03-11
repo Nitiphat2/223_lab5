@@ -35,9 +35,9 @@ int main()
                     }
                 }
             }
-            for(j=0; j<n/2; j++)
+            for(j=0;j<n/2; j++)
             {
-                if(j<a)
+                if(i<a)
                 {
                     if(j!=i)
                     {
@@ -60,7 +60,7 @@ int main()
                     }
                 }
             }
-            if(i>=3)
+            if(i>=a)
             {
                 b++;
             }
