@@ -1,11 +1,10 @@
 #include<stdio.h>
 #include<string.h>
-#include<math.h>
 int main()
 {
     int n,i,j,l,a=0,x;
     scanf("%d",&n);
-    char num[n],m[n];
+    char num[n];
     int f[n];
     for(i=0; i<n; i++)
     {
@@ -31,6 +30,7 @@ int main()
             j=strlen(num);
             for(l=0;l<j;l++)
             {
+                x=j-l-1;
                 switch(x)
                 {
                     case 0 : f[a] = f[a]+((int)num[l] - 48); break;
@@ -48,6 +48,6 @@ int main()
             a++;
         }
     }
-    printf("%d",f[0]);
+    printf("%d",f[a-1]);
     return 0;
 }
