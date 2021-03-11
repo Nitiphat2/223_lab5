@@ -31,7 +31,12 @@ int main()
     {
         for(j=0; j<n-(m-1); j++)
         {
-
+            if(max<sum[i][j])
+            {
+                max=sum[i][j];
+            }
         }
     }
+    printf("%d",max);
+    return 0;
 }
