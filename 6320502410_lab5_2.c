@@ -69,6 +69,65 @@ int main()
     }
     else
     {
-
+        a=n/2;
+        b=0;
+        for(i=0;i<n; i++)
+        {
+            if(i<=n/2)
+            {
+                for(j=0;j<=n/2;j++)
+                {
+                    if(j==a-i)
+                    {
+                        printf("*");
+                    }
+                    else
+                    {
+                        printf("_");
+                    }
+                }
+                for(j=1;j<=a;j++)
+                {
+                    if(j==i)
+                    {
+                        printf("*");
+                    }
+                    else
+                    {
+                        printf("_");
+                    }
+                }
+            }
+            else
+            {
+                for(j=0;j<=a;j++)
+                {
+                    if(j!=b)
+                    {
+                        printf("_");
+                    }
+                    else
+                    {
+                         printf("*");
+                    }
+                }
+                for(j=1;j<=a;j++)
+                {
+                    if(j==a-b)
+                    {
+                        printf("*");
+                    }
+                    else
+                    {
+                        printf("_");
+                    }
+                }
+            }
+            printf("\n");
+            if(i>=n/2)
+            {
+                b++;
+            }
+        }
     }
 }
