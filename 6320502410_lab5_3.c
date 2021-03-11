@@ -3,20 +3,27 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    int a=1,b=1,i,j=0,k=0,l,z[3]={2,3,5},x;
+    int a=1,b=1,i,j=0,k=0,l,z[]= {2,3,5},x,m,o;
     while(k!=n)
     {
         j=0;
-        for(i=2;i<a;i++)
+        m=0;
+        o=0;
+        for(i=2; i<=a; i++)
         {
-            if(a%i==0)
+            if(a%i==0&&i>5)
             {
-                x=1;
-                for(l=0;l<3;l++)
+                x=0;
+                o=0;
+                for(l=2; l<=i; l++)
                 {
-                    if(i==z[l])
+                    if(i%l==0&&l!=i)
                     {
-                        x=0;
+                        o++;
+                    }
+                    if(l==i&&o==0)
+                    {
+                        x=1;
                     }
                 }
                 if(x==1)
@@ -31,7 +38,7 @@ int main()
             k++;
             b=a;
         }
-         printf("%d %d\n",a,k);
+        printf("%d %d\n",a,k);
         a++;
     }
     printf("%d",b);
