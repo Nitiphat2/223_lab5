@@ -15,12 +15,6 @@ int main()
                 break;
             }
         }
-        if(j==0)
-        {
-            k++;
-            b=a;
-        }
-        a++;
     }
 
 }
