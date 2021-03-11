@@ -38,7 +38,6 @@ int main()
             k++;
             b=a;
         }
-        printf("%d %d\n",a,k);
         a++;
     }
     printf("%d",b);
