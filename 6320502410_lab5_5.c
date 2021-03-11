@@ -24,8 +24,14 @@ int main()
                     sum[i][j]=sum[i][j]+num[i+l][j+a];
                 }
             }
-            printf("%d ",sum[i][j]);
         }
-        printf("\n");
+    }
+    int max=sum[0][0];
+    for(i=0;i<n-(m-1);i++)
+    {
+        for(j=0; j<n-(m-1); j++)
+        {
+
+        }
     }
 }
